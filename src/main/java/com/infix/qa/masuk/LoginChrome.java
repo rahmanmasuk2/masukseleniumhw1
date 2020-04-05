@@ -27,11 +27,11 @@ public class LoginChrome {
 
         driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div[1]/div/div[2]/div[4]/div[1]/form/div/div[3]/a")).click();
         System.out.println("click to veiw in cart");
-        // driver.findElement(By.xpath("/html/body/div/div/div[2]/div[2]/div[4]/div/div[2]/h4/a")).click();
-        //System.out.println("At to cart");
+         driver.findElement(By.xpath("/html/body/div/div/div[2]/div[2]/div[4]/div/div[2]/h4/a")).click();
+        System.out.println("At to cart");
 
-        //driver.findElement(By.xpath("/html/body/nav/div/div[1]/ul[2]/li[4]/ul/li[4]/a")).click();
-        //System.out.println("click to view in cart");
+        driver.findElement(By.xpath("/html/body/nav/div/div[1]/ul[2]/li[4]/ul/li[4]/a")).click();
+        System.out.println("click to view in cart");
 
         driver.findElement(By.xpath("/html/body/div[2]/div/div/div[3]/div[1]/div[2]/div[5]/div[1]/a")).click();
         System.out.println("click to checkout");
